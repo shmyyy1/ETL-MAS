@@ -1,5 +1,4 @@
-# Multi-Agent Safety Controller System
-# Shamanth Sreekanth
+# Multi-Agent Control & Safety
 
 A comprehensive framework for training and deploying neural network-based safety controllers for multi-agent systems using Graph Neural Networks (GNNs) and optimal control theory.
 
@@ -29,14 +28,14 @@ The system successfully demonstrates **20 quadrotor agents reaching their goals*
 - **Goal-Based Termination**: Simulations run until all agents reach their goals
 - **Real-Time Coordination**: Multi-agent safety-aware decision making
 
-### 📊 Advanced Features
+### Advanced Features
 - **ETL Pipeline**: MongoDB-based data processing pipeline
 - **Training Infrastructure**: Automated model training with validation
 - **3D Visualization**: Static and animated trajectory plots
 - **Performance Metrics**: Comprehensive safety and goal-reaching statistics
 - **Modular Architecture**: Extensible design for new agent types
 
-### 🎨 Visualization
+### Visualization
 - **3D Trajectory Plots**: Complete agent paths with obstacles and goals
 - **Safety Analysis**: Collision risk heatmaps and statistics
 - **Training Curves**: Loss convergence and performance metrics
@@ -192,7 +191,7 @@ optimizer = torch.optim.Adam(safety_controller.parameters(), lr=0.001)
 ## Results & Performance
 
 ### Goal Reaching Success
-- **✅ 20/20 agents** reached goals within 1.0m tolerance
+- ** 20/20 agents** reached goals within 1.0m tolerance
 - **58 simulation steps** to complete multi-agent coordination
 - **Average final distance**: 0.439m from goals
 
